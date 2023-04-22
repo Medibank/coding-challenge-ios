@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MedibankAssignment' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MedibankAssignment
+  pod 'RxAlamofire'
+  pod 'Kingfisher', '~> 7.0'
+  
+  target 'MedibankAssignmentTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MedibankAssignmentUITests' do
+    # Pods for testing
+  end
+
+end

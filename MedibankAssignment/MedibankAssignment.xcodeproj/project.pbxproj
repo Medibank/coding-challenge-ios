@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B860BCB553B8AB74A0CA49A /* Pods_MedibankAssignment_MedibankAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D54773B1DBC40B6256E8BDC /* Pods_MedibankAssignment_MedibankAssignmentUITests.framework */; };
+		BB8B58986F736B7053FDB193 /* Pods_MedibankAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005F5A1987D9A77917D870FC /* Pods_MedibankAssignment.framework */; };
+		CF3011152998FC0200E1A9DE /* HeadlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3011142998FC0200E1A9DE /* HeadlineViewModel.swift */; };
+		CF3011172998FC2E00E1A9DE /* HeadlineUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3011162998FC2E00E1A9DE /* HeadlineUseCase.swift */; };
+		CF3011192998FC4500E1A9DE /* HeadlineReporsitory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3011182998FC4500E1A9DE /* HeadlineReporsitory.swift */; };
+		CF30111B2998FCC700E1A9DE /* HeadlineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30111A2998FCC700E1A9DE /* HeadlineAdapter.swift */; };
+		CF30111D2998FCE900E1A9DE /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30111C2998FCE900E1A9DE /* HeadlineView.swift */; };
+		CF30111F2999019600E1A9DE /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30111E2999019600E1A9DE /* Singleton.swift */; };
+		CF30112129990DCA00E1A9DE /* HeadlineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30112029990DCA00E1A9DE /* HeadlineResponse.swift */; };
+		CF38D7A72998B33E00C9C493 /* SourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38D7A52998B33E00C9C493 /* SourceTableViewCell.swift */; };
+		CF38D7A82998B33E00C9C493 /* SourceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF38D7A62998B33E00C9C493 /* SourceTableViewCell.xib */; };
+		CF4E2ED2299514BB0088C208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2ED1299514BB0088C208 /* AppDelegate.swift */; };
+		CF4E2ED4299514BB0088C208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2ED3299514BB0088C208 /* SceneDelegate.swift */; };
+		CF4E2ED6299514BB0088C208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2ED5299514BB0088C208 /* ViewController.swift */; };
+		CF4E2EDB299514BC0088C208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4E2EDA299514BC0088C208 /* Assets.xcassets */; };
+		CF4E2EDE299514BC0088C208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4E2EDC299514BC0088C208 /* LaunchScreen.storyboard */; };
+		CF4E2EF3299514BC0088C208 /* MedibankAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2EF2299514BC0088C208 /* MedibankAssignmentUITests.swift */; };
+		CF4E2EF5299514BC0088C208 /* MedibankAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2EF4299514BC0088C208 /* MedibankAssignmentUITestsLaunchTests.swift */; };
+		CF4E2F042995192F0088C208 /* HeadlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2F032995192F0088C208 /* HeadlineViewController.swift */; };
+		CF4E2F062995195C0088C208 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2F052995195C0088C208 /* SavedViewController.swift */; };
+		CF4E2F0829951BDC0088C208 /* MainNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E2F0729951BDC0088C208 /* MainNavigator.swift */; };
+		CF57298B29965AF300D273B6 /* SourceViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57298A29965AF300D273B6 /* SourceViewCoordinator.swift */; };
+		CF57298E299665B000D273B6 /* SourceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57298D299665B000D273B6 /* SourceUseCase.swift */; };
+		CF5729912996663500D273B6 /* SourceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5729902996663500D273B6 /* SourceRepository.swift */; };
+		CF572994299666F800D273B6 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF572993299666F800D273B6 /* DownloadManager.swift */; };
+		CFB3AD9B2997A77E0053D36E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3AD9A2997A77E0053D36E /* Coordinator.swift */; };
+		CFB3ADA02997BA560053D36E /* HeadlineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3AD9F2997BA560053D36E /* HeadlineCoordinator.swift */; };
+		CFB3ADA32997BAAC0053D36E /* SavedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3ADA22997BAAC0053D36E /* SavedCoordinator.swift */; };
+		CFB952752997D08B006C5686 /* SourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB952742997D08B006C5686 /* SourceAdapter.swift */; };
+		CFB952782997D163006C5686 /* SourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB952772997D163006C5686 /* SourceView.swift */; };
+		CFB9527F2997D2AC006C5686 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9527C2997D2AC006C5686 /* Edge.swift */; };
+		CFB952802997D2AC006C5686 /* UIView+PinToViewEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9527D2997D2AC006C5686 /* UIView+PinToViewEdge.swift */; };
+		CFB952812997D2AC006C5686 /* UIView+PinToSuperviewEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9527E2997D2AC006C5686 /* UIView+PinToSuperviewEdges.swift */; };
+		CFB9528329989B07006C5686 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9528229989B07006C5686 /* CustomLoadingView.swift */; };
+		CFBD9CA029952FB400E464D6 /* SourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD9C9F29952FB400E464D6 /* SourceViewModel.swift */; };
+		CFBD9CA3299531B300E464D6 /* SourceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD9CA2299531B300E464D6 /* SourceResponse.swift */; };
+		CFC22E0C299BB75700315D2F /* SourceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E0B299BB75700315D2F /* SourceViewModelTests.swift */; };
+		CFC22E0F299BB7D600315D2F /* SourceUseCaseSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E0E299BB7D600315D2F /* SourceUseCaseSpy.swift */; };
+		CFC22E11299BB80200315D2F /* ContentDisplayerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E10299BB80200315D2F /* ContentDisplayerSpy.swift */; };
+		CFC22E16299BB85B00315D2F /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E15299BB85B00315D2F /* MockCoordinator.swift */; };
+		CFC22E18299BB87100315D2F /* MockSharedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E17299BB87100315D2F /* MockSharedState.swift */; };
+		CFC22E1C299BC49000315D2F /* SourceRepositorySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E1B299BC49000315D2F /* SourceRepositorySpy.swift */; };
+		CFC22E1E299BC4FE00315D2F /* SourceViewUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E1D299BC4FE00315D2F /* SourceViewUseCaseTests.swift */; };
+		CFC22E20299BC53900315D2F /* DownloadManagerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E1F299BC53900315D2F /* DownloadManagerSpy.swift */; };
+		CFC22E22299BCE8500315D2F /* SourceViewRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC22E21299BCE8500315D2F /* SourceViewRepositoryTests.swift */; };
+		CFCB385429999ABF00C3F3CD /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB385229999ABF00C3F3CD /* ArticleTableViewCell.swift */; };
+		CFCB385529999ABF00C3F3CD /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFCB385329999ABF00C3F3CD /* ArticleTableViewCell.xib */; };
+		CFCB38582999C1F900C3F3CD /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB38572999C1F900C3F3CD /* ArticleWebViewController.swift */; };
+		CFCB385B2999D28D00C3F3CD /* LocalDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB385A2999D28D00C3F3CD /* LocalDataStorage.swift */; };
+		DA2CCC5EBDFA2C094A189591 /* Pods_MedibankAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86314BCC2559C5B53589C1DE /* Pods_MedibankAssignmentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4E2EE5299514BC0088C208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4E2EC6299514BB0088C208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4E2ECD299514BB0088C208;
+			remoteInfo = MedibankAssignment;
+		};
+		CF4E2EEF299514BC0088C208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4E2EC6299514BB0088C208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4E2ECD299514BB0088C208;
+			remoteInfo = MedibankAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005F5A1987D9A77917D870FC /* Pods_MedibankAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedibankAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3F839C6B2A09F1F6F7E011 /* Pods-MedibankAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-MedibankAssignmentTests/Pods-MedibankAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F5A4B314DE858B15F177A0F /* Pods-MedibankAssignment-MedibankAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignment-MedibankAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-MedibankAssignment-MedibankAssignmentUITests/Pods-MedibankAssignment-MedibankAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D54773B1DBC40B6256E8BDC /* Pods_MedibankAssignment_MedibankAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedibankAssignment_MedibankAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4184C4A87CE6AF2560469D /* Pods-MedibankAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignment.release.xcconfig"; path = "Target Support Files/Pods-MedibankAssignment/Pods-MedibankAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		7436524192D275FA5C4C7C64 /* Pods-MedibankAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignment.debug.xcconfig"; path = "Target Support Files/Pods-MedibankAssignment/Pods-MedibankAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		86314BCC2559C5B53589C1DE /* Pods_MedibankAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedibankAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2DA3B7265913CA2F864C94 /* Pods-MedibankAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-MedibankAssignmentTests/Pods-MedibankAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3011142998FC0200E1A9DE /* HeadlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineViewModel.swift; sourceTree = "<group>"; };
+		CF3011162998FC2E00E1A9DE /* HeadlineUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineUseCase.swift; sourceTree = "<group>"; };
+		CF3011182998FC4500E1A9DE /* HeadlineReporsitory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineReporsitory.swift; sourceTree = "<group>"; };
+		CF30111A2998FCC700E1A9DE /* HeadlineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineAdapter.swift; sourceTree = "<group>"; };
+		CF30111C2998FCE900E1A9DE /* HeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
+		CF30111E2999019600E1A9DE /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		CF30112029990DCA00E1A9DE /* HeadlineResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineResponse.swift; sourceTree = "<group>"; };
+		CF38D7A52998B33E00C9C493 /* SourceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTableViewCell.swift; sourceTree = "<group>"; };
+		CF38D7A62998B33E00C9C493 /* SourceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SourceTableViewCell.xib; sourceTree = "<group>"; };
+		CF4E2ECE299514BB0088C208 /* MedibankAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedibankAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4E2ED1299514BB0088C208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF4E2ED3299514BB0088C208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF4E2ED5299514BB0088C208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF4E2EDA299514BC0088C208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4E2EDD299514BC0088C208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4E2EDF299514BC0088C208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4E2EE4299514BC0088C208 /* MedibankAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibankAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4E2EEE299514BC0088C208 /* MedibankAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibankAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4E2EF2299514BC0088C208 /* MedibankAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibankAssignmentUITests.swift; sourceTree = "<group>"; };
+		CF4E2EF4299514BC0088C208 /* MedibankAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibankAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF4E2F032995192F0088C208 /* HeadlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineViewController.swift; sourceTree = "<group>"; };
+		CF4E2F052995195C0088C208 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		CF4E2F0729951BDC0088C208 /* MainNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigator.swift; sourceTree = "<group>"; };
+		CF57298A29965AF300D273B6 /* SourceViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewCoordinator.swift; sourceTree = "<group>"; };
+		CF57298D299665B000D273B6 /* SourceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceUseCase.swift; sourceTree = "<group>"; };
+		CF5729902996663500D273B6 /* SourceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceRepository.swift; sourceTree = "<group>"; };
+		CF572993299666F800D273B6 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		CFB3AD9A2997A77E0053D36E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CFB3AD9F2997BA560053D36E /* HeadlineCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineCoordinator.swift; sourceTree = "<group>"; };
+		CFB3ADA22997BAAC0053D36E /* SavedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCoordinator.swift; sourceTree = "<group>"; };
+		CFB952742997D08B006C5686 /* SourceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceAdapter.swift; sourceTree = "<group>"; };
+		CFB952772997D163006C5686 /* SourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceView.swift; sourceTree = "<group>"; };
+		CFB9527C2997D2AC006C5686 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		CFB9527D2997D2AC006C5686 /* UIView+PinToViewEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PinToViewEdge.swift"; sourceTree = "<group>"; };
+		CFB9527E2997D2AC006C5686 /* UIView+PinToSuperviewEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PinToSuperviewEdges.swift"; sourceTree = "<group>"; };
+		CFB9528229989B07006C5686 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		CFBD9C9F29952FB400E464D6 /* SourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewModel.swift; sourceTree = "<group>"; };
+		CFBD9CA2299531B300E464D6 /* SourceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceResponse.swift; sourceTree = "<group>"; };
+		CFC22E0B299BB75700315D2F /* SourceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewModelTests.swift; sourceTree = "<group>"; };
+		CFC22E0E299BB7D600315D2F /* SourceUseCaseSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceUseCaseSpy.swift; sourceTree = "<group>"; };
+		CFC22E10299BB80200315D2F /* ContentDisplayerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDisplayerSpy.swift; sourceTree = "<group>"; };
+		CFC22E15299BB85B00315D2F /* MockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoordinator.swift; sourceTree = "<group>"; };
+		CFC22E17299BB87100315D2F /* MockSharedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSharedState.swift; sourceTree = "<group>"; };
+		CFC22E1B299BC49000315D2F /* SourceRepositorySpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceRepositorySpy.swift; sourceTree = "<group>"; };
+		CFC22E1D299BC4FE00315D2F /* SourceViewUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewUseCaseTests.swift; sourceTree = "<group>"; };
+		CFC22E1F299BC53900315D2F /* DownloadManagerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManagerSpy.swift; sourceTree = "<group>"; };
+		CFC22E21299BCE8500315D2F /* SourceViewRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewRepositoryTests.swift; sourceTree = "<group>"; };
+		CFCB385229999ABF00C3F3CD /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		CFCB385329999ABF00C3F3CD /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		CFCB38572999C1F900C3F3CD /* ArticleWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebViewController.swift; sourceTree = "<group>"; };
+		CFCB385A2999D28D00C3F3CD /* LocalDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataStorage.swift; sourceTree = "<group>"; };
+		F94F1C331812A703168C8F67 /* Pods-MedibankAssignment-MedibankAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedibankAssignment-MedibankAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-MedibankAssignment-MedibankAssignmentUITests/Pods-MedibankAssignment-MedibankAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4E2ECB299514BB0088C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8B58986F736B7053FDB193 /* Pods_MedibankAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EE1299514BC0088C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2CCC5EBDFA2C094A189591 /* Pods_MedibankAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EEB299514BC0088C208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B860BCB553B8AB74A0CA49A /* Pods_MedibankAssignment_MedibankAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14910E447973AA70AC36AB97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005F5A1987D9A77917D870FC /* Pods_MedibankAssignment.framework */,
+				3D54773B1DBC40B6256E8BDC /* Pods_MedibankAssignment_MedibankAssignmentUITests.framework */,
+				86314BCC2559C5B53589C1DE /* Pods_MedibankAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC9EDD2A35EBDBB349FDF6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7436524192D275FA5C4C7C64 /* Pods-MedibankAssignment.debug.xcconfig */,
+				3F4184C4A87CE6AF2560469D /* Pods-MedibankAssignment.release.xcconfig */,
+				2F5A4B314DE858B15F177A0F /* Pods-MedibankAssignment-MedibankAssignmentUITests.debug.xcconfig */,
+				F94F1C331812A703168C8F67 /* Pods-MedibankAssignment-MedibankAssignmentUITests.release.xcconfig */,
+				BD2DA3B7265913CA2F864C94 /* Pods-MedibankAssignmentTests.debug.xcconfig */,
+				0B3F839C6B2A09F1F6F7E011 /* Pods-MedibankAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF30110F2998FBA500E1A9DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF3011142998FC0200E1A9DE /* HeadlineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF3011102998FBBB00E1A9DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF30111C2998FCE900E1A9DE /* HeadlineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF3011112998FBC900E1A9DE /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CF30111A2998FCC700E1A9DE /* HeadlineAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CF3011122998FBD600E1A9DE /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				CF3011182998FC4500E1A9DE /* HeadlineReporsitory.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		CF3011132998FBE100E1A9DE /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				CF3011162998FC2E00E1A9DE /* HeadlineUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		CF38D7A92998B35F00C9C493 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CF38D7A52998B33E00C9C493 /* SourceTableViewCell.swift */,
+				CF38D7A62998B33E00C9C493 /* SourceTableViewCell.xib */,
+				CFCB385229999ABF00C3F3CD /* ArticleTableViewCell.swift */,
+				CFCB385329999ABF00C3F3CD /* ArticleTableViewCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		CF38D7AA2998C57B00C9C493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CF30111E2999019600E1A9DE /* Singleton.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CF4E2EC5299514BB0088C208 = {
+			isa = PBXGroup;
+			children = (
+				CF4E2ED0299514BB0088C208 /* MedibankAssignment */,
+				CF4E2EE7299514BC0088C208 /* MedibankAssignmentTests */,
+				CF4E2EF1299514BC0088C208 /* MedibankAssignmentUITests */,
+				CF4E2ECF299514BB0088C208 /* Products */,
+				CC9EDD2A35EBDBB349FDF6B5 /* Pods */,
+				14910E447973AA70AC36AB97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4E2ECF299514BB0088C208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2ECE299514BB0088C208 /* MedibankAssignment.app */,
+				CF4E2EE4299514BC0088C208 /* MedibankAssignmentTests.xctest */,
+				CF4E2EEE299514BC0088C208 /* MedibankAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4E2ED0299514BB0088C208 /* MedibankAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB38592999D26900C3F3CD /* LocalDataStorage */,
+				CFCB38562999C1D400C3F3CD /* Webview */,
+				CF38D7AA2998C57B00C9C493 /* Shared */,
+				CF38D7A92998B35F00C9C493 /* CustomTableViewCell */,
+				CFB9528429989B0E006C5686 /* CustomView */,
+				CFB9527B2997D2AC006C5686 /* UIKitExtension */,
+				CFB3AD992997A7650053D36E /* Protocol */,
+				CFBD9CA12995319F00E464D6 /* Models */,
+				CF5729922996668900D273B6 /* Networking */,
+				CFBD9C9C29952EC800E464D6 /* Saved */,
+				CFBD9C9A29952EA400E464D6 /* Headlines */,
+				CFBD9C9829952E7400E464D6 /* Source */,
+				CFBD9C9629952E4B00E464D6 /* Navigator */,
+				CFBD9C9529952E2900E464D6 /* Application */,
+				CF4E2EDA299514BC0088C208 /* Assets.xcassets */,
+				CF4E2EDC299514BC0088C208 /* LaunchScreen.storyboard */,
+				CF4E2EDF299514BC0088C208 /* Info.plist */,
+			);
+			path = MedibankAssignment;
+			sourceTree = "<group>";
+		};
+		CF4E2EE7299514BC0088C208 /* MedibankAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC22E0A299BB72B00315D2F /* Source */,
+			);
+			path = MedibankAssignmentTests;
+			sourceTree = "<group>";
+		};
+		CF4E2EF1299514BC0088C208 /* MedibankAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2EF2299514BC0088C208 /* MedibankAssignmentUITests.swift */,
+				CF4E2EF4299514BC0088C208 /* MedibankAssignmentUITestsLaunchTests.swift */,
+			);
+			path = MedibankAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		CF57298929965AD200D273B6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CF57298A29965AF300D273B6 /* SourceViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CF57298C29965BCC00D273B6 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				CF57298D299665B000D273B6 /* SourceUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		CF57298F2996662100D273B6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				CF5729902996663500D273B6 /* SourceRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		CF5729922996668900D273B6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF572993299666F800D273B6 /* DownloadManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFB3AD992997A7650053D36E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3AD9A2997A77E0053D36E /* Coordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CFB3AD9E2997BA3E0053D36E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3AD9F2997BA560053D36E /* HeadlineCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CFB3ADA12997BA960053D36E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3ADA22997BAAC0053D36E /* SavedCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CFB3ADA72997D0310053D36E /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CFB952742997D08B006C5686 /* SourceAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CFB952762997D13C006C5686 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFB952772997D163006C5686 /* SourceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFB9527B2997D2AC006C5686 /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9527C2997D2AC006C5686 /* Edge.swift */,
+				CFB9527D2997D2AC006C5686 /* UIView+PinToViewEdge.swift */,
+				CFB9527E2997D2AC006C5686 /* UIView+PinToSuperviewEdges.swift */,
+			);
+			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		CFB9528429989B0E006C5686 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9528229989B07006C5686 /* CustomLoadingView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CFBD9C9529952E2900E464D6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2ED1299514BB0088C208 /* AppDelegate.swift */,
+				CF4E2ED3299514BB0088C208 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CFBD9C9629952E4B00E464D6 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2F0729951BDC0088C208 /* MainNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		CFBD9C9829952E7400E464D6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CFB952762997D13C006C5686 /* View */,
+				CFB3ADA72997D0310053D36E /* Adapter */,
+				CF57298F2996662100D273B6 /* Repository */,
+				CF57298C29965BCC00D273B6 /* UseCase */,
+				CF57298929965AD200D273B6 /* Coordinator */,
+				CFBD9C9E29952F8700E464D6 /* ViewModel */,
+				CFBD9C9929952E8200E464D6 /* ViewControllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CFBD9C9929952E8200E464D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2ED5299514BB0088C208 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFBD9C9A29952EA400E464D6 /* Headlines */ = {
+			isa = PBXGroup;
+			children = (
+				CF3011132998FBE100E1A9DE /* UseCase */,
+				CF3011122998FBD600E1A9DE /* Repository */,
+				CF3011112998FBC900E1A9DE /* Adapter */,
+				CF3011102998FBBB00E1A9DE /* View */,
+				CF30110F2998FBA500E1A9DE /* ViewModel */,
+				CFB3AD9E2997BA3E0053D36E /* Coordinator */,
+				CFBD9C9B29952EB700E464D6 /* ViewControllers */,
+			);
+			path = Headlines;
+			sourceTree = "<group>";
+		};
+		CFBD9C9B29952EB700E464D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2F032995192F0088C208 /* HeadlineViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFBD9C9C29952EC800E464D6 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3ADA12997BA960053D36E /* Coordinator */,
+				CFBD9C9D29952ED100E464D6 /* ViewControllers */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		CFBD9C9D29952ED100E464D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E2F052995195C0088C208 /* SavedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFBD9C9E29952F8700E464D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD9C9F29952FB400E464D6 /* SourceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFBD9CA12995319F00E464D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD9CA2299531B300E464D6 /* SourceResponse.swift */,
+				CF30112029990DCA00E1A9DE /* HeadlineResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFC22E0A299BB72B00315D2F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CFC22E12299BB80600315D2F /* Mock */,
+				CFC22E0D299BB7B400315D2F /* Spy */,
+				CFC22E0B299BB75700315D2F /* SourceViewModelTests.swift */,
+				CFC22E1D299BC4FE00315D2F /* SourceViewUseCaseTests.swift */,
+				CFC22E21299BCE8500315D2F /* SourceViewRepositoryTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CFC22E0D299BB7B400315D2F /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				CFC22E0E299BB7D600315D2F /* SourceUseCaseSpy.swift */,
+				CFC22E10299BB80200315D2F /* ContentDisplayerSpy.swift */,
+				CFC22E1B299BC49000315D2F /* SourceRepositorySpy.swift */,
+				CFC22E1F299BC53900315D2F /* DownloadManagerSpy.swift */,
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		CFC22E12299BB80600315D2F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				CFC22E15299BB85B00315D2F /* MockCoordinator.swift */,
+				CFC22E17299BB87100315D2F /* MockSharedState.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		CFCB38562999C1D400C3F3CD /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB38572999C1F900C3F3CD /* ArticleWebViewController.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		CFCB38592999D26900C3F3CD /* LocalDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB385A2999D28D00C3F3CD /* LocalDataStorage.swift */,
+			);
+			path = LocalDataStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4E2ECD299514BB0088C208 /* MedibankAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4E2EF8299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignment" */;
+			buildPhases = (
+				6B81E33C45A53F27796506FE /* [CP] Check Pods Manifest.lock */,
+				CF4E2ECA299514BB0088C208 /* Sources */,
+				CF4E2ECB299514BB0088C208 /* Frameworks */,
+				CF4E2ECC299514BB0088C208 /* Resources */,
+				AE7AB4D6CA34A4A1058D793F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedibankAssignment;
+			productName = MedibankAssignment;
+			productReference = CF4E2ECE299514BB0088C208 /* MedibankAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4E2EE3299514BC0088C208 /* MedibankAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4E2EFB299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignmentTests" */;
+			buildPhases = (
+				45E67CD8B5611ABAD02933B5 /* [CP] Check Pods Manifest.lock */,
+				CF4E2EE0299514BC0088C208 /* Sources */,
+				CF4E2EE1299514BC0088C208 /* Frameworks */,
+				CF4E2EE2299514BC0088C208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4E2EE6299514BC0088C208 /* PBXTargetDependency */,
+			);
+			name = MedibankAssignmentTests;
+			productName = MedibankAssignmentTests;
+			productReference = CF4E2EE4299514BC0088C208 /* MedibankAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF4E2EED299514BC0088C208 /* MedibankAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4E2EFE299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignmentUITests" */;
+			buildPhases = (
+				F42EF5549B2D6EBDB6EF6193 /* [CP] Check Pods Manifest.lock */,
+				CF4E2EEA299514BC0088C208 /* Sources */,
+				CF4E2EEB299514BC0088C208 /* Frameworks */,
+				CF4E2EEC299514BC0088C208 /* Resources */,
+				15A6CC54D52AA37E6572F4AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4E2EF0299514BC0088C208 /* PBXTargetDependency */,
+			);
+			name = MedibankAssignmentUITests;
+			productName = MedibankAssignmentUITests;
+			productReference = CF4E2EEE299514BC0088C208 /* MedibankAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4E2EC6299514BB0088C208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CF4E2ECD299514BB0088C208 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CF4E2EE3299514BC0088C208 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CF4E2ECD299514BB0088C208;
+					};
+					CF4E2EED299514BC0088C208 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CF4E2ECD299514BB0088C208;
+					};
+				};
+			};
+			buildConfigurationList = CF4E2EC9299514BB0088C208 /* Build configuration list for PBXProject "MedibankAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4E2EC5299514BB0088C208;
+			productRefGroup = CF4E2ECF299514BB0088C208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4E2ECD299514BB0088C208 /* MedibankAssignment */,
+				CF4E2EE3299514BC0088C208 /* MedibankAssignmentTests */,
+				CF4E2EED299514BC0088C208 /* MedibankAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4E2ECC299514BB0088C208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCB385529999ABF00C3F3CD /* ArticleTableViewCell.xib in Resources */,
+				CF4E2EDE299514BC0088C208 /* LaunchScreen.storyboard in Resources */,
+				CF38D7A82998B33E00C9C493 /* SourceTableViewCell.xib in Resources */,
+				CF4E2EDB299514BC0088C208 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EE2299514BC0088C208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EEC299514BC0088C208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A6CC54D52AA37E6572F4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment-MedibankAssignmentUITests/Pods-MedibankAssignment-MedibankAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment-MedibankAssignmentUITests/Pods-MedibankAssignment-MedibankAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment-MedibankAssignmentUITests/Pods-MedibankAssignment-MedibankAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E67CD8B5611ABAD02933B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedibankAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B81E33C45A53F27796506FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedibankAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE7AB4D6CA34A4A1058D793F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment/Pods-MedibankAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment/Pods-MedibankAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedibankAssignment/Pods-MedibankAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42EF5549B2D6EBDB6EF6193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedibankAssignment-MedibankAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4E2ECA299514BB0088C208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB952752997D08B006C5686 /* SourceAdapter.swift in Sources */,
+				CF30111F2999019600E1A9DE /* Singleton.swift in Sources */,
+				CF4E2F0829951BDC0088C208 /* MainNavigator.swift in Sources */,
+				CF3011192998FC4500E1A9DE /* HeadlineReporsitory.swift in Sources */,
+				CF4E2F062995195C0088C208 /* SavedViewController.swift in Sources */,
+				CFB3ADA02997BA560053D36E /* HeadlineCoordinator.swift in Sources */,
+				CF572994299666F800D273B6 /* DownloadManager.swift in Sources */,
+				CF4E2F042995192F0088C208 /* HeadlineViewController.swift in Sources */,
+				CFB952802997D2AC006C5686 /* UIView+PinToViewEdge.swift in Sources */,
+				CFB9528329989B07006C5686 /* CustomLoadingView.swift in Sources */,
+				CFCB385429999ABF00C3F3CD /* ArticleTableViewCell.swift in Sources */,
+				CFCB385B2999D28D00C3F3CD /* LocalDataStorage.swift in Sources */,
+				CF57298E299665B000D273B6 /* SourceUseCase.swift in Sources */,
+				CFB3AD9B2997A77E0053D36E /* Coordinator.swift in Sources */,
+				CFCB38582999C1F900C3F3CD /* ArticleWebViewController.swift in Sources */,
+				CFB9527F2997D2AC006C5686 /* Edge.swift in Sources */,
+				CF3011172998FC2E00E1A9DE /* HeadlineUseCase.swift in Sources */,
+				CF4E2ED6299514BB0088C208 /* ViewController.swift in Sources */,
+				CF30111D2998FCE900E1A9DE /* HeadlineView.swift in Sources */,
+				CFBD9CA029952FB400E464D6 /* SourceViewModel.swift in Sources */,
+				CF3011152998FC0200E1A9DE /* HeadlineViewModel.swift in Sources */,
+				CF30112129990DCA00E1A9DE /* HeadlineResponse.swift in Sources */,
+				CF57298B29965AF300D273B6 /* SourceViewCoordinator.swift in Sources */,
+				CF4E2ED2299514BB0088C208 /* AppDelegate.swift in Sources */,
+				CFB3ADA32997BAAC0053D36E /* SavedCoordinator.swift in Sources */,
+				CFBD9CA3299531B300E464D6 /* SourceResponse.swift in Sources */,
+				CF5729912996663500D273B6 /* SourceRepository.swift in Sources */,
+				CF38D7A72998B33E00C9C493 /* SourceTableViewCell.swift in Sources */,
+				CF4E2ED4299514BB0088C208 /* SceneDelegate.swift in Sources */,
+				CF30111B2998FCC700E1A9DE /* HeadlineAdapter.swift in Sources */,
+				CFB952812997D2AC006C5686 /* UIView+PinToSuperviewEdges.swift in Sources */,
+				CFB952782997D163006C5686 /* SourceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EE0299514BC0088C208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC22E11299BB80200315D2F /* ContentDisplayerSpy.swift in Sources */,
+				CFC22E16299BB85B00315D2F /* MockCoordinator.swift in Sources */,
+				CFC22E20299BC53900315D2F /* DownloadManagerSpy.swift in Sources */,
+				CFC22E1E299BC4FE00315D2F /* SourceViewUseCaseTests.swift in Sources */,
+				CFC22E18299BB87100315D2F /* MockSharedState.swift in Sources */,
+				CFC22E1C299BC49000315D2F /* SourceRepositorySpy.swift in Sources */,
+				CFC22E0C299BB75700315D2F /* SourceViewModelTests.swift in Sources */,
+				CFC22E22299BCE8500315D2F /* SourceViewRepositoryTests.swift in Sources */,
+				CFC22E0F299BB7D600315D2F /* SourceUseCaseSpy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4E2EEA299514BC0088C208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4E2EF5299514BC0088C208 /* MedibankAssignmentUITestsLaunchTests.swift in Sources */,
+				CF4E2EF3299514BC0088C208 /* MedibankAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4E2EE6299514BC0088C208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4E2ECD299514BB0088C208 /* MedibankAssignment */;
+			targetProxy = CF4E2EE5299514BC0088C208 /* PBXContainerItemProxy */;
+		};
+		CF4E2EF0299514BC0088C208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4E2ECD299514BB0088C208 /* MedibankAssignment */;
+			targetProxy = CF4E2EEF299514BC0088C208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4E2EDC299514BC0088C208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4E2EDD299514BC0088C208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4E2EF6299514BC0088C208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF4E2EF7299514BC0088C208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4E2EF9299514BC0088C208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7436524192D275FA5C4C7C64 /* Pods-MedibankAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedibankAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4E2EFA299514BC0088C208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4184C4A87CE6AF2560469D /* Pods-MedibankAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedibankAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF4E2EFC299514BC0088C208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2DA3B7265913CA2F864C94 /* Pods-MedibankAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedibankAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedibankAssignment";
+			};
+			name = Debug;
+		};
+		CF4E2EFD299514BC0088C208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3F839C6B2A09F1F6F7E011 /* Pods-MedibankAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedibankAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedibankAssignment";
+			};
+			name = Release;
+		};
+		CF4E2EFF299514BC0088C208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5A4B314DE858B15F177A0F /* Pods-MedibankAssignment-MedibankAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedibankAssignment;
+			};
+			name = Debug;
+		};
+		CF4E2F00299514BC0088C208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94F1C331812A703168C8F67 /* Pods-MedibankAssignment-MedibankAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myassignment.MedibankAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedibankAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4E2EC9299514BB0088C208 /* Build configuration list for PBXProject "MedibankAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4E2EF6299514BC0088C208 /* Debug */,
+				CF4E2EF7299514BC0088C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4E2EF8299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4E2EF9299514BC0088C208 /* Debug */,
+				CF4E2EFA299514BC0088C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4E2EFB299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4E2EFC299514BC0088C208 /* Debug */,
+				CF4E2EFD299514BC0088C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4E2EFE299514BC0088C208 /* Build configuration list for PBXNativeTarget "MedibankAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4E2EFF299514BC0088C208 /* Debug */,
+				CF4E2F00299514BC0088C208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4E2EC6299514BB0088C208 /* Project object */;
+}
