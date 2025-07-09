@@ -39,7 +39,6 @@ Your app should include a TabView with three tabs:
 - API will return the latest 10 articles per source — pagination not required
 - Use **URLSession** or a custom networking layer
 - Do **not** use any 3rd-party NewsAPI clients
-- Please avoid hardcoding the API key — use `.xcconfig` or similar if applicable
 
 ### Architecture
 - Follow **MVVM** or another scalable architecture
@@ -95,10 +94,6 @@ You have 3 days to complete the challenge. We encourage you to focus on deliveri
 You are free to decide the order and approach for implementing the features. The goal is to understand your ability to drive a solution end-to-end, make trade-offs, and demonstrate solid engineering principles.
 
 Optional or advanced items such as snapshot tests, animations, and accessibility enhancements are appreciated but not mandatory. You're encouraged to explain any assumptions, decisions, or partial implementations in comments or a short README. This helps us better understand your approach, even if all features are not completed.. Feel free to leave comments or a short README explaining any assumptions or incomplete features.
-
----
-
-
 
 ---
 
