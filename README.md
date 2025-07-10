@@ -34,8 +34,8 @@ Your app should include a TabView with three tabs:
 - Saved articles must **persist across app launches**
 
 ### Networking
-- Use NewsAPI to fetch headlines and sources
-- Register for a free API key
+- Use NewsAPI to fetch headlines and sources (https://newsapi.org/)
+- Register for a free API key 
 - API will return the latest 10 articles per source — pagination not required
 - Use **URLSession** or a custom networking layer
 - Do **not** use any 3rd-party NewsAPI clients
