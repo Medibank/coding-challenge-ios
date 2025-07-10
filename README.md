@@ -84,7 +84,7 @@ Your app should include a TabView with three tabs:
 ---
 
 ## 📌 Suggested Focus Areas
-You have 3 days to complete the challenge. We encourage you to focus on delivering:
+You have 3 days to complete the challenge. We encourage you to focus on delivering what’s most meaningful and practical within the available time:
 
 - A working implementation of the core functionality
 - A clear and modular SwiftUI architecture
