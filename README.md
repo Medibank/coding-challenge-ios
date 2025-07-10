@@ -43,7 +43,7 @@ Your app should include a TabView with three tabs:
 ### Architecture
 - Follow **MVVM** or another scalable architecture
 - Use `ObservableObject`, `@State`, `@Published`, and `@EnvironmentObject` appropriately
-- Structure your code to promote **modularity and reusability**
+- Structure your code to promote **modularity and reusability**, where applicable
 
 ### Persistence
 - Use any local persistence method (e.g., `UserDefaults`, local file, CoreData)
@@ -93,7 +93,13 @@ You have 3 days to complete the challenge. We encourage you to focus on deliveri
 
 You are free to decide the order and approach for implementing the features. The goal is to understand your ability to drive a solution end-to-end, make trade-offs, and demonstrate solid engineering principles.
 
+> ⚠️ **Note:** Bonus items such as snapshot tests, animations, and accessibility enhancements are **appreciated but not expected**. You're encouraged to explain any assumptions, decisions, or partial implementations in comments or a short README. This helps us better understand your approach, even if all features are not completed. The goal is to understand your ability to drive a solution end-to-end, make trade-offs, and demonstrate solid engineering principles.
+
 Optional or advanced items such as snapshot tests, animations, and accessibility enhancements are appreciated but not mandatory. You're encouraged to explain any assumptions, decisions, or partial implementations in comments or a short README. This helps us better understand your approach, even if all features are not completed.. Feel free to leave comments or a short README explaining any assumptions or incomplete features.
+
+---
+
+
 
 ---
 
