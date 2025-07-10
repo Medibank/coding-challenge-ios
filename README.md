@@ -5,7 +5,7 @@ Welcome to the Medibank iOS coding challenge! This is your opportunity to demons
 ---
 
 ## 🎯 Challenge Overview
-You are not expected to build a production-level app. Instead, we’re looking at how you structure your code, prioritize tasks, and communicate trade-offs.
+You are not expected to build a production-level app. Instead, we’re looking at how you structure your code, prioritise tasks, and communicate trade-offs.
 Develop a proof-of-concept news reader app using **SwiftUI**. The app will fetch and display trending articles from NewsAPI, allow users to filter by sources, and support saving articles for later reading.
 
 ---
