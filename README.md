@@ -79,7 +79,6 @@ Your app should include a TabView with three tabs:
 - Xcode 15+
 - Swift 5.9+
 - Swift Package Manager (SPM) for dependency management
-- SwiftLint or similar tools (optional but encouraged)
 
 ---
 
