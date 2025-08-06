@@ -1,4 +1,4 @@
-# Medibank iOS Code Challenge – SwiftUI Edition
+# Medibank iOS Code Challenge
 
 Welcome to the Medibank iOS coding challenge! This is your opportunity to demonstrate your skills in **SwiftUI**, app architecture, modular development, and testing practices by building a small yet complete iOS app.
 
@@ -41,7 +41,7 @@ Your app should include a TabView with three tabs:
 - Do **not** use any 3rd-party NewsAPI clients
 
 ### Architecture
-- Follow **MVVM** or another scalable architecture
+- Follow **MVVM** architecture
 - Use `ObservableObject`, `@State`, `@Published`, and `@EnvironmentObject` appropriately
 - Structure your code to promote **modularity and reusability**, where applicable
 
