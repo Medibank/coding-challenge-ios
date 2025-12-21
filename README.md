@@ -56,10 +56,6 @@ Your app should include a TabView with three tabs:
 ### ✅ Required
 - **Unit Tests:** Cover ViewModels, business logic, and API service
 
-### 🌟 Bonus (Optional)
-- **UI Tests:** Use XCUITest to test flows (e.g., open article > save > view saved)
-- **Snapshot Tests:** Include snapshot tests for key views (e.g., article cell, detail view)
-
 ---
 
 ## 📋 Evaluation Criteria
@@ -71,12 +67,11 @@ Your app should include a TabView with three tabs:
 | **Testing**         | Unit tests provided; optional UI/snapshot tests |
 | **Code Quality**    | Modular, readable, and well-documented code |
 | **UX & UI**         | Responsive UI, smooth navigation, and empty state handling |
-| **Bonus Points**    | Accessibility support, dark mode, animations, optional testing features |
 
 ---
 
 ## 🛠 Tools You Can Use
-- Xcode 15+
+- Xcode 26
 - Swift 5.9+
 - Swift Package Manager (SPM) for dependency management
 
@@ -91,8 +86,6 @@ You have 3 days to complete the challenge. We encourage you to focus on deliveri
 - Reasonable test coverage for the business logic (e.g., ViewModels)
 
 You are free to decide the order and approach for implementing the features. The goal is to understand your ability to drive a solution end-to-end, make trade-offs, and demonstrate solid engineering principles.
-
-> ⚠️ **Note:** Bonus items such as snapshot tests, animations, and accessibility enhancements are **appreciated but not expected**. You're encouraged to explain any assumptions, decisions, or partial implementations in comments or a short README. This helps us better understand your approach, even if all features are not completed.
 
 ---
 
