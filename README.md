@@ -42,7 +42,7 @@ Your app should include a TabView with three tabs:
 
 ### Architecture
 - Follow **MVVM** architecture
-- Use `ObservableObject`, `@State`, `@Published`, and `@EnvironmentObject` appropriately
+- Uses SwiftUI property wrappers appropriately to manage state, observable data, and shared dependencies, ensuring correct ownership and predictable UI updates.
 - Structure your code to promote **modularity and reusability**, where applicable
 
 ### Persistence
