@@ -1,0 +1,208 @@
+//
+//  mockarticles.json
+//
+
+{
+    "status": "ok",
+    "totalResults": 15,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Wink News"
+            },
+            "author": "Writer: Nicholas Karsen",
+            "title": "57 cases of measles confirmed at Ave Maria University, 7 currently contagious - WINK News",
+            "description": "AVE MARIA, Fla.—Now 57 cases of Measles have been reported at Ave Maria University, seven of which are contagious, according to the school's latest update.",
+            "url": "https://www.winknews.com/news/collier/57-cases-of-measles-confirmed-at-ave-maria-university-7-currently-contagious/article_298f2922-a5b2-4b67-a0cd-24009dc56801.html",
+            "urlToImage": "https://bloximages.chicago2.vip.townnews.com/winknews.com/content/tncms/assets/v3/editorial/4/da/4da9fdb9-f204-5ff4-b472-556f52d6a016/67f66bdfe1fd0.image.png?crop=1920%2C1008%2C0%2C35&resize=1200%2C630&order=crop%2Cresize",
+            "publishedAt": "2026-02-11T21:46:35Z",
+            "content": "AVE MARIA, Fla.Now 57 cases of Measles have been reported at Ave Maria University..."
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Lara Seligman, Shelby Holliday",
+            "title": "Exclusive | Pentagon Prepares Second Aircraft Carrier to Deploy to the Middle East - The Wall Street Journal",
+            "description": "Trump is ratcheting up the pressure on Iran to make a deal over its nuclear program",
+            "url": "https://www.wsj.com/politics/national-security/pentagon-prepares-second-aircraft-carrier-to-deploy-to-the-middle-east-e7140a64",
+            "urlToImage": "https://images.wsj.net/im-10580856/social",
+            "publishedAt": "2026-02-11T20:22:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": "Mark Gurman",
+            "title": "Apple’s Latest Attempt to Launch the New Siri Runs Into Snags - Bloomberg",
+            "description": "Apple Inc.’s long-planned upgrade to the Siri virtual assistant has run into snags...",
+            "url": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
+            "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iin.P72WhU78/v0/1200x800.jpg",
+            "publishedAt": "2026-02-11T19:46:08Z",
+            "content": "Apple Inc.s long-planned upgrade to the Siri virtual assistant..."
+        },
+        {
+            "source": {
+                "id": "nfl-news",
+                "name": "NFL News"
+            },
+            "author": null,
+            "title": "NFL rookie report cards: Grading and ranking every team's 2025 draft class - NFL.com",
+            "description": "Which NFL team had the best 2025 draft class? The worst? With the season in the books, it's time for rookie report cards! Gennaro Filice ranks every group, from No. 1 to 32, providing accompanying grades and analysis.",
+            "url": "https://www.nfl.com/news/nfl-rookie-report-cards-grading-and-ranking-every-team-s-2025-draft-class",
+            "urlToImage": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/kqfu8hiiklxrcyphms6w",
+            "publishedAt": "2026-02-11T19:20:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5google.com"
+            },
+            "author": "Abner Li",
+            "title": "Google cancels today’s Android 17 Beta 1 release - 9to5Google",
+            "description": "Android 17 Beta 1 was supposed to launch today, but Google has since pulled the release.",
+            "url": "http://9to5google.com/2026/02/11/android-17-beta-1-cancel/",
+            "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/02/Android-17-logo.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2026-02-11T19:14:00Z",
+            "content": "Android 17 Beta 1 was supposed to launch today, but Google has since pulled the release.\r\nThe Android 17 Beta was supposed to debut at 10 am PT. We and other publications posted our coverage at that … [+571 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Defector.com"
+            },
+            "author": null,
+            "title": "Johannes Klæbo Ran Everybody Off The Course - Defector",
+            "description": "Televisually speaking, my one complaint about the Winter Olympics is that even with expert commentary, the skills on display in many events are not so obviously different from one another that I can tell them apart. I cannot tell any trick that anyone on skis…",
+            "url": "https://defector.com/johannes-klaebo-ran-everybody-off-the-course",
+            "urlToImage": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2026/02/GettyImages-2260316598.jpg",
+            "publishedAt": "2026-02-11T18:31:00Z",
+            "content": "Televisually speaking, my one complaint about the Winter Olympics is that even with expert commentary, the skills on display in many events are not so obviously different from one another that I can … [+2112 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Reuters",
+            "title": "South Carolina sees dip in daily measles cases but too early to call slowdown, health official says - Yahoo",
+            "description": "Feb 11 (Reuters) - Reported daily measles cases in South Carolina have been declining in recent days, but it is too early to know whether the outbreak is...",
+            "url": "https://www.yahoo.com/news/articles/south-carolina-sees-dip-daily-182615103.html",
+            "urlToImage": "https://s.yimg.com/os/en/reuters.com/67957e9e6cc9ba7a5afe516c2489c656",
+            "publishedAt": "2026-02-11T18:30:30Z",
+            "content": "Feb 11 (Reuters) - Reported daily measles cases in South Carolina have been declining in recent days, but it is too early to know whether the outbreak is slowing, a state health official said on Wedn… [+908 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Amelia Lucas",
+            "title": "McDonald's is about to report earnings. Here's what to expect - CNBC",
+            "description": "Buzzy promotions have helped McDonald's win over high-income consumers.",
+            "url": "https://www.cnbc.com/2026/02/11/mcdonalds-mcd-q4-2025-earnings.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/108263386-1770847317718-108263386-1770655273391-gettyimages-2244661075-MCDONALDS_US_EXPANSION.jpeg?v=1770847340&w=1920&h=1080",
+            "publishedAt": "2026-02-11T18:18:40Z",
+            "content": "McDonald's on Wednesday reported quarterly earnings and revenue that topped analysts' expectations as its value push wins back customers.\r\n\"By listening to customers and taking action, we have improv… [+4237 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Jacob Bogage, Jeff Stein, Perry Stein",
+            "title": "IRS improperly disclosed confidential immigrant tax data to DHS - The Washington Post",
+            "description": "The tax agency only recently discovered it improperly disclosed tax information on thousands of the wrong people to immigration enforcement.",
+            "url": "https://www.washingtonpost.com/business/2026/02/11/immigrants-irs-dhs-tax-data/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SWUXYRU2ZPOCEA6PW6Y3TSF6P4.jpg&w=1440",
+            "publishedAt": "2026-02-11T18:13:01Z",
+            "content": "The Internal Revenue Service improperly shared confidential tax information of thousands of individuals with immigration enforcement officials, according to three people familiar with the situation, … [+71 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Jon Gambrell",
+            "title": "Iran commemorates 1979 revolution as nation is squeezed by anger over crackdown and tensions with US - AP News",
+            "description": "Iran marks the 47th anniversary of its 1979 Islamic Revolution as leaders face pressure from the U.S. and anger at home. On Wednesday, state TV shows huge pro-government rallies with chants against America. Witnesses in Tehran also report shouts of “Death to …",
+            "url": "https://apnews.com/article/iran-revolution-anniversary-us-nuclear-talks-protests-4ffab53ef628073ca90b9c8707485577",
+            "urlToImage": "https://dims.apnews.com/dims4/default/cbd9922/2147483647/strip/true/crop/8318x5543+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe8%2F5e%2F0d736e07efa84ecd34721702e51f%2Fd7888b5e26c345149d3b4aa0ac1847bb",
+            "publishedAt": "2026-02-11T16:49:00Z",
+            "content": "DUBAI, United Arab Emirates (AP) Iran marked the 47th anniversary of its 1979 Islamic Revolution on Wednesday as the countrys theocracy remains under pressure, both from U.S. President Donald Trump, … [+6877 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Zack Sharf",
+            "title": "Piers Morgan Rejects Megyn Kelly’s Meltdown Over Bad Bunny, Then Asks: Is MAGA Going ‘Woke’ and ‘Thin-Skinned’ Amid Super Bowl Outrage? - Yahoo News Canada",
+            "description": "Is MAGA going woke? It’s a question Piers Morgan is currently floating as Trump’s fanbase continues to be outraged over Bad Bunny’s Super Bowl Halftime Show....",
+            "url": "https://variety.com/2026/music/news/piers-morgan-maga-woke-bad-bunny-megyn-kelly-supwer-bowl-1236659375/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/YAaz17d6WRv3O_cvq5C5kA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04ODk7Y2Y9d2VicA--/https://media.zenfs.com/en/variety.com/250f07a608fbac9a81d210c5ba907715",
+            "publishedAt": "2026-02-11T16:44:27Z",
+            "content": "Is MAGA going woke? Its a question Piers Morgan is currently floating as Trumps fanbase continues to be outraged over Bad Bunnys Super Bowl Halftime Show. While the left is often accused of being pol… [+3725 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Ellyn Lapointe",
+            "title": "NASA Thinks Boeing’s Starliner Can Fly in April, Which Is Hilarious - Gizmodo",
+            "description": "NASA engineers are targeting April for an uncrewed Starliner mission, with a crewed flight possible this fall, the agency’s commercial crew manager said Monday.",
+            "url": "https://gizmodo.com/nasa-thinks-boeings-starliner-can-fly-in-april-which-is-hilarious-2000720614",
+            "urlToImage": "https://gizmodo.com/app/uploads/2026/02/Starliner--1200x675.jpg",
+            "publishedAt": "2026-02-11T16:30:02Z",
+            "content": "Starliners first crewed test flight didnt exactly go as planned. NASA and Boeing are still troubleshooting the technical issues that left astronauts Sunita Williams and Barry Wilmore stuck on the Int… [+3238 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": "Jennifer A Dlouhy",
+            "title": "Trump to Direct Pentagon to Buy Coal Power in Revival Bid - Bloomberg.com",
+            "description": "President Donald Trump will unveil plans to use government funding and Pentagon contracts to sustain US coal-fired power plants as he seeks to drive domestic reliance on the fossil fuel.",
+            "url": "https://www.bloomberg.com/news/articles/2026-02-11/trump-to-direct-pentagon-to-buy-coal-in-bid-to-revive-industry",
+            "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iXsJCHOF8sIQ/v0/1200x800.jpg",
+            "publishedAt": "2026-02-11T16:03:12Z",
+            "content": "President Donald Trump will unveil plans to use government funding and Pentagon contracts to sustain US coal-fired power plants as he seeks to drive domestic reliance on the fossil fuel. \r\nThe marque… [+261 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slate Magazine"
+            },
+            "author": "Shirin Ali",
+            "title": "Congress Showed ICE Leaders Images of ICE Brutality. The Response Was Telling. - Slate",
+            "description": "Congress finally got a chance on Tuesday to confront Homeland Security officials.",
+            "url": "https://slate.com/news-and-politics/2026/02/congress-ice-hearing-pepper-spray-photos-pretti-good.html",
+            "urlToImage": "https://compote.slate.com/images/3c925b30-ad30-49a3-91f9-231274189de8.jpeg?crop=5397%2C3598%2Cx0%2Cy1&width=1560",
+            "publishedAt": "2026-02-11T16:00:00Z",
+            "content": "Sign up for the Slatest to get the most insightful analysis, criticism, and advice out there, delivered to your inbox daily.\r\nAfter months of watching federal agents terrorize communities all across … [+5711 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Tatiana Siegel",
+            "title": "Priyanka Chopra Jonas on ‘Blowing Up’ Her Acting Career, Ignoring Nick Jonas Marriage Backlash and ‘Coming Back to Indian Movies’ for ‘RRR’ Director’s New Film - Variety",
+            "description": "Priyanka Chopra Jonas",
+            "url": "https://variety.com/2026/film/features/priyanka-chopra-nick-jonas-the-bluff-varanasi-1236657119/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2026/02/Priyanka-Chopra-Variety-Cover-Story-4.jpg?crop=0px%2C370px%2C1500px%2C842px&resize=1000%2C563",
+            "publishedAt": "2026-02-11T16:00:00Z",
+            "content": "Priyanka Chopra Jonas winces — only slightly, but unmistakably — when the word “crossover” enters the conversation. It’s a frigid January afternoon in Manhattan, but the Hudson River gusts can’t pene… [+16222 chars]"
+        }
+    ]
+}
+
+
+
